@@ -18,11 +18,6 @@ public class LoginStepDefs {
         loginPage = new LoginPage(WebDriverFactory.getDriver());
     }
 
-    @After
-    public void tearDown() {
-        WebDriverFactory.quitDriver();
-    }
-
     @Given("I am on the OpenEMR login page")
     public void i_am_on_the_open_emr_login_page() {
         WebDriverFactory.getDriver().get(BASE_URL);
