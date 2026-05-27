@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-27T17:57:02 IST" name="Default suite" finished-at="2026-05-27T17:58:29 IST" duration-ms="86524">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.siemens.openemr.tests.TestRunner@477b4cdf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-05-27T17:57:02 IST" name="Default test" finished-at="2026-05-27T17:58:29 IST" duration-ms="86524">
+      <class name="com.siemens.openemr.tests.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.siemens.openemr.tests.TestRunner@477b4cdf]" started-at="2026-05-27T17:57:02 IST" name="setUpClass" finished-at="2026-05-27T17:57:03 IST" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@659f226a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.siemens.openemr.tests.TestRunner@477b4cdf]" started-at="2026-05-27T17:57:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-27T17:57:42 IST" duration-ms="38928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout redirects to login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Authentication"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.siemens.openemr.tests.TestRunner@477b4cdf]" started-at="2026-05-27T17:57:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-27T17:58:06 IST" duration-ms="24162" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Password field is masked by default"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Authentication"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.siemens.openemr.tests.TestRunner@477b4cdf]" started-at="2026-05-27T17:58:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-27T17:58:28 IST" duration-ms="22360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Eye icon toggles password visibility"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Authentication"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.siemens.openemr.tests.TestRunner@477b4cdf]" started-at="2026-05-27T17:58:28 IST" name="tearDownClass" finished-at="2026-05-27T17:58:29 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.siemens.openemr.tests.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -32,6 +32,7 @@ Feature: Login Authentication
       | AUTH-03b   | admin         | wrongpass     |
       | AUTH-03c   | wronguser     | pass          |
       | AUTH-03d   | ' OR '1'='1   | ' OR '1'='1   |
+      
 @AUTH-04 @Negative
   Scenario Outline: Empty fields shows validation message
     Given I am on the OpenEMR login page
